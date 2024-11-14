@@ -6,6 +6,48 @@
 
 .header {
   display: flex;
+  justify-content: space-between;
+  width: 92vw;
+  height: 72px;
+  background-color: #2a2a2a;
+  margin: auto;
+  border-radius: 14px;
+}
+
+.searchl {
+  display: flex;
+}
+
+.logo {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fmobicom-logo-hq.png&w=256&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 64px;
+  height: 36px;
+}
+
+.search {
+  width: 221.5px;
+  height: 36px;
+  margin-right: 32px;
+  background-color: #3d3d3d;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search i {
+  color: #b0b0b0;
+  font-size: 20px;
+}
+
+.search input {
+  background: none;
+  border: none;
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 200;
 }
 
 .darkwhite {
