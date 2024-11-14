@@ -3,3 +3,94 @@
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: flex;
+}
+
+.darkwhite {
+  display: flex;
+}
+
+.heroback {
+  display: flex;
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/DJI_20231028181037_0240_D_MAX_Recovered_ezgif_com_jpg_to_webp_converter_d02db53f44.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92vw;
+  height: 808px;
+  margin: auto;
+}
+
+.serparent {
+  display: flex;
+}
+
+.cardsearchers {
+  display: flex;
+}
+
+.cardsearch {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+}
+
+.parent {
+  display: flex;
+}
+
+.garparent {
+  display: flex;
+}
+
+.utasnuud {
+  display: flex;
+}
+
+.utasjijig {
+  display: flex;
+}
+
+.tuslamj {
+  display: flex;
+}
+
+.tusback {
+  display: flex;
+}
+
+.hogcards {
+  display: flex;
+}
+
+.easyparent {
+  display: flex;
+}
+
+.last {
+  display: flex;
+}
+
+.lastl {
+  display: flex;
+}
+
+.lastbottom {
+  display: flex;
+}
+
+.flexitems {
+  display: flex;
+}
+
+.flexgap {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
