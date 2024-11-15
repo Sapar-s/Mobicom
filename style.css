@@ -9,13 +9,16 @@
   justify-content: space-between;
   width: 95vw;
   height: 72px;
-  background-color: #2a2a2a;
+  background-color: rgb(30, 27, 27);
   margin: auto;
   margin-top: 20px;
   border-radius: 14px;
+  border: 1px #fff solid;
   padding: 16px 24px;
   position: sticky;
   top: 20px;
+  opacity: 0.9;
+  z-index: 1;
 }
 
 .searchl {
@@ -185,6 +188,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.ser:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .ser i {
@@ -195,22 +204,281 @@
   padding: 12px;
 }
 
+.ser:hover i {
+  border: 2px #fac4c4 solid;
+  border-radius: 50%;
+  padding: 16px;
+}
+
 .ser h3 {
   font-size: 14px;
   color: #262626;
   margin-top: 12px;
 }
 
+.ser:hover h3 {
+  transform: translateX(-20px);
+}
+
+.specialoffers {
+  margin-top: 24px;
+  position: relative;
+}
+
+.specialback {
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/specialOfferBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(31, 31, 31, 0.95);
+  width: 95vw;
+  height: 666.66px;
+  margin: auto;
+  /* margin-top: 24px; */
+  border-radius: 12px;
+  padding-top: 80px;
+}
+
+.garchignuud h2 {
+  font-size: 48px;
+  color: #f7f7f7;
+  text-align: center;
+}
+
 .cardsearchers {
   display: flex;
+  justify-content: center;
+  margin-top: 64px;
 }
 
 .cardsearch {
   display: flex;
+  align-items: center;
+  background-color: #3d3d3d;
+  width: 643.5px;
+  height: 58px;
+  border: 1px #4e4e4e solid;
+  border-radius: 12px;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.cardsearch h3 {
+  /* background-color: #ffffff; */
+  color: #a3a3a3;
+  border-radius: 14px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.c1 h3 {
+  color: #262626;
+  font-size: 14px;
+}
+
+.delgerengui {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  gap: 2px;
+}
+
+.delgerengui button {
+  background: none;
+  border: none;
+  color: #f7f7f7;
+}
+
+.delgerengui i {
+  color: #f7f7f7;
 }
 
 .cards {
   display: flex;
+  width: 100vw;
+  height: 638px;
+  padding: 64px;
+  position: absolute;
+  bottom: -200px;
+  overflow: scroll;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card div {
+  display: flex;
+  justify-content: end;
+}
+
+.card i {
+  color: #fbbf24;
+  background-color: #282828;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+.card p {
+  color: #f7f7f7;
+  font-size: 18px;
+  position: absolute;
+  bottom: 54px;
+}
+
+.card .border {
+  border-bottom: 1px solid #4a4a4a;
+  position: absolute;
+  bottom: 18px;
+  width: 88%;
+  margin: 16px 0;
+}
+
+.card1,
+.card3,
+.card7 p {
+  text-transform: uppercase;
+}
+
+.card1,
+.card3,
+.card7 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/1080_720_904f6b1f30.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/Special_Olympics_medee_721x1081_143e09ad6c.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card4 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/5_G_1_1f3208070f.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card5 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/mobicom_medee_1_1_be49b51926.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card6 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/mobicom_banner_bosoo_white_1_9a38632671.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card8 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/bosoo_a2239ed3ea.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card9 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/721x1081_mobi_1_300x_5f2b7092a4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.card10 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9836528361344538) 0%,
+      rgba(0, 0, 0, 0) 98%
+    ),
+    url("https://osa.mobicom.mn/content/mcommerce/uploads/tses_94a742c09f.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 349px;
+  height: 509px;
+  border-radius: 12px;
+  padding: 16px 20px;
 }
 
 .parent {
