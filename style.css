@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* header heseg*/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -63,10 +65,6 @@
   width: 170px;
 }
 
-/* .delguur {
-  display: flex;
-} */
-
 .Uilchilgee,
 .Medeelel,
 .delguur {
@@ -116,6 +114,8 @@
 .container {
   margin-top: 20px;
 }
+
+/* hero heseg */
 
 .heroback {
   display: flex;
@@ -196,7 +196,7 @@
   border-radius: 10px;
 }
 
-.ser i {
+.seri i {
   font-size: 36px;
   color: #f87979;
   border: 2px #fac4c4 solid;
@@ -204,21 +204,38 @@
   padding: 12px;
 }
 
-.ser:hover i {
+.ser:hover .seri i {
   border: 2px #fac4c4 solid;
   border-radius: 50%;
   padding: 16px;
+}
+
+.hover {
+  display: flex;
+  align-items: end;
+  transition: transform 0.3s linear;
 }
 
 .ser h3 {
   font-size: 14px;
   color: #262626;
   margin-top: 12px;
+  margin-right: 5px;
 }
 
-.ser:hover h3 {
-  transform: translateX(-20px);
+.hover i {
+  opacity: 0;
 }
+
+.ser:hover .hover {
+  transform: translateX(-15px);
+}
+
+.ser:hover .hover i {
+  opacity: 1;
+}
+
+/* special heseg */
 
 .specialoffers {
   margin-top: 24px;
@@ -264,17 +281,21 @@
 }
 
 .cardsearch h3 {
-  /* background-color: #ffffff; */
   color: #a3a3a3;
   border-radius: 14px;
-  padding: 8px 20px;
+  padding: 12px 20px;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.cardsearch h3:hover {
+  color: #f7f7f7;
+  background-color: #1f1f1ff2;
 }
 
 .c1 {
   background-color: #ffffff;
-  border-radius: 14px;
-  padding: 8px 20px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
 }
@@ -289,12 +310,14 @@
   align-items: center;
   margin-left: 16px;
   gap: 2px;
+  cursor: pointer;
 }
 
 .delgerengui button {
   background: none;
   border: none;
   color: #f7f7f7;
+  cursor: pointer;
 }
 
 .delgerengui i {
@@ -316,6 +339,7 @@
 
 .card {
   position: relative;
+  transition: all 0.3s linear;
 }
 
 .card div {
@@ -343,6 +367,10 @@
   bottom: 18px;
   width: 88%;
   margin: 16px 0;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card1,
@@ -481,21 +509,159 @@
   padding: 16px 20px;
 }
 
+/* onlineshop heseg */
+
+.onlineshop {
+  margin: auto;
+  margin-top: 210px;
+  width: 95vw;
+  padding: 32px 80px;
+  background-color: #fafafa;
+  border-radius: 12px;
+}
+
+.onlineshop h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
 .parent {
   display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.parent button {
+  font-size: 14px;
+  background: none;
+  border: none;
+  padding: 8px 20px;
+  color: #262626;
+  cursor: pointer;
 }
 
 .garparent {
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #0000001a;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.garparent button:hover {
+  background-color: #eff1f6;
+  border-radius: 12px;
+}
+
+.btn1 {
+  background-color: #222222;
+  border-radius: 12px;
+}
+
+.btn1 button {
+  color: #ffffff;
+}
+
+.btn3 {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.btn3 button {
+  padding: 8px 0 8px 20px;
+  margin-right: 5px;
+}
+
+.btn3 i {
+  color: #262626;
 }
 
 .utasnuud {
   display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.utas {
+  width: 312px;
+  height: 328px;
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.utas1 {
+  width: 641px;
+  height: 675px;
+  padding: 45px 12px 12px 12px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-right: 16px;
+}
+
+.utas1 h5 {
+}
+
+.utastom {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FHUAWEI_Pura_70_Pro_Black_Rear_expand_3a83fc8cb7.webp&w=2048&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 615.6px;
+  height: 539px;
 }
 
 .utasjijig {
   display: flex;
 }
+
+.utasd {
+  margin-right: 16px;
+}
+
+.utas2 {
+  margin-bottom: 16px;
+}
+
+.utasd1 {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FHUAWEI_Pura_70_Pink_Rear_expand_Without_U_e07b3d828c.webp&w=640&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 187px;
+  height: 187px;
+}
+
+.utasd2 {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2F011_galaxy_s24_onyxblack_front2_8ee17f8957.webp&w=640&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 187px;
+  height: 187px;
+}
+
+.utass1 {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fredmagic_8s_pro_3_a443836e76.webp&w=640&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 187px;
+  height: 187px;
+}
+
+.utass2 {
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FZTE_A73_1_566aabf3b7.webp&w=640&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 187px;
+  height: 187px;
+}
+
+/* tuslamj heseg */
 
 .tuslamj {
   display: flex;
@@ -505,13 +671,19 @@
   display: flex;
 }
 
+/* hogjil heseg */
+
 .hogcards {
   display: flex;
 }
 
+/* easy app heseg */
+
 .easyparent {
   display: flex;
 }
+
+/* last heseg */
 
 .last {
   display: flex;
@@ -532,6 +704,8 @@
 .flexgap {
   display: flex;
 }
+
+/* footer heseg */
 
 .footer {
   display: flex;
