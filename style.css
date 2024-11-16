@@ -850,14 +850,171 @@ body {
 
 /* hogjil heseg */
 
+.hogjil {
+  width: 95vw;
+  height: 697px;
+  background-color: #fafafa;
+  margin: auto;
+  margin-top: 64px;
+  border-radius: 12px;
+  box-shadow: inset 0px 0px 14px 3px rgba(0, 0, 0, 0.1);
+  padding: 80px 72px;
+}
+
+.hogjil h2 {
+  font-size: 48px;
+  color: #262626;
+  text-align: center;
+}
+
 .hogcards {
   display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 56px;
+}
+
+.hogcard {
+  width: 400px;
+  height: 433px;
+  padding: 0 24px;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: inset 0px -100px 100px -52px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.hogcard:hover {
+  transform: scaleX(1.2);
+}
+
+.hogcard h5 {
+  font-size: 20px;
+  color: #f7f7f7;
+  position: absolute;
+  bottom: 40px;
+}
+
+.hogcard div {
+  border-bottom: 1px solid #b5b0b0;
+  position: absolute;
+  bottom: 20px;
+  width: 88%;
+}
+
+.hogcard1 {
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/SDG_Undsen_chiglel_86da118242.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hogcard2 {
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/SDG_Tusul_hutulbur_643351fc20.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hogcard3 {
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/SDG_Tailan_1db6ec10f5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* easy app heseg */
 
+.easy {
+  padding: 96px 48px;
+}
+
+.easy h2 {
+  font-size: 48px;
+  color: #262626;
+  text-align: center;
+}
+
 .easyparent {
   display: flex;
+  margin-top: 80px;
+  padding: 0 112px;
+}
+
+.dashed {
+  display: flex;
+  align-items: center;
+}
+
+.easyt {
+  padding: 24px;
+  background-color: #fafafa;
+  border: 1px solid #e3e7ed;
+  border-radius: 12px;
+  width: 384px;
+  height: 208px;
+  cursor: pointer;
+}
+
+.easyt:hover {
+  border: 1px solid red;
+  border-radius: 12px;
+}
+
+.easyt h3 {
+  font-size: 20px;
+  color: #262626;
+  margin-top: 12px;
+}
+
+.easyt p {
+  font-size: 14px;
+  color: #737373;
+  margin-top: 8px;
+}
+
+.easyimg {
+  width: 56px;
+  height: 56px;
+  padding: 4px;
+  border: 1px solid #e3e7ed;
+  border-radius: 12px;
+}
+
+.easyimg img {
+  width: 100%;
+}
+
+.easy1 {
+  margin-bottom: 25px;
+}
+
+.easy3 {
+  margin-bottom: 25px;
+}
+
+.easy3 h3 {
+  margin-top: 35px;
+}
+
+.easy4 h3 {
+  margin-top: 30px;
+}
+
+.easym {
+  border-right: 1px dashed #e3e7ed;
+  height: 403.87px;
+}
+
+.borderdashedl {
+  border-top: 1px dashed #e3e7ed;
+  width: 192px;
+}
+
+.borderdashedr {
+  border-top: 1px dashed #e3e7ed;
+  width: 192px;
 }
 
 /* last heseg */
