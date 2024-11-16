@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 /* header heseg*/
 
 .header {
@@ -590,6 +594,12 @@
   padding: 12px;
   background-color: #ffffff;
   border-radius: 12px;
+  cursor: pointer;
+}
+
+.utas:hover {
+  border: red 1px solid;
+  border-radius: 12px;
 }
 
 .utas1 {
@@ -601,7 +611,35 @@
   margin-right: 16px;
 }
 
+.spacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.spacebetweentom {
+  margin: 16px;
+}
+
+.utas h5 {
+  font-size: 14px;
+  color: #737373;
+}
+
+.utas h4 {
+  font-size: 18px;
+  color: #262626;
+}
+
 .utas1 h5 {
+  font-size: 14px;
+  color: #737373;
+}
+
+.utas1 h4 {
+  font-size: 24px;
+  color: #262626;
 }
 
 .utastom {
@@ -626,6 +664,7 @@
 }
 
 .utasd1 {
+  margin: auto;
   background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FHUAWEI_Pura_70_Pink_Rear_expand_Without_U_e07b3d828c.webp&w=640&q=75");
   background-position: center;
   background-repeat: no-repeat;
@@ -635,6 +674,7 @@
 }
 
 .utasd2 {
+  margin: auto;
   background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2F011_galaxy_s24_onyxblack_front2_8ee17f8957.webp&w=640&q=75");
   background-position: center;
   background-repeat: no-repeat;
@@ -644,6 +684,7 @@
 }
 
 .utass1 {
+  margin: auto;
   background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fredmagic_8s_pro_3_a443836e76.webp&w=640&q=75");
   background-position: center;
   background-repeat: no-repeat;
@@ -653,6 +694,7 @@
 }
 
 .utass2 {
+  margin: auto;
   background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FZTE_A73_1_566aabf3b7.webp&w=640&q=75");
   background-position: center;
   background-repeat: no-repeat;
@@ -664,11 +706,146 @@
 /* tuslamj heseg */
 
 .tuslamj {
-  display: flex;
+  padding: 64px 0;
 }
+
+.minituslamj {
+  display: flex;
+  padding: 56px 24px;
+  justify-content: space-around;
+}
+
+.tuszuun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tuszuun h2 {
+  font-size: 48px;
+  color: #262626;
+  margin-top: 12px;
+  width: 410.6px;
+}
+
+.parentai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  width: 410px;
+  /* height: 93.3px; */
+}
+
+.ai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ef3e3e;
+  padding: 6px 8px;
+  color: #f7f7f7;
+  font-size: 20px;
+  border-radius: 12px;
+  width: 393.33px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.ai:hover {
+  background-color: #d73d3d;
+}
+
+.openai {
+  background-image: url("./img/ailogo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 123px;
+  height: 23px;
+  margin-top: 12px;
+}
+
+/* .openai img {
+  width: 393px;
+  height: 74px;
+} */
 
 .tusback {
   display: flex;
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FhelpBg.png&w=2048&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 792px;
+  height: 600px;
+}
+
+.tusleft {
+  margin-top: 78px;
+}
+
+.tusl {
+  margin-right: 25px;
+}
+
+.tus {
+  padding: 24px;
+  background-color: #ffffffd9;
+  width: 384px;
+  height: 185.33px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.tus:hover {
+  border: red 1px solid;
+  border-radius: 16px;
+}
+
+.tus4 {
+  margin-bottom: 40px;
+}
+
+.tus i {
+  padding: 12px;
+  border: 1px solid #f9bebf;
+  border-radius: 50%;
+  color: #f87271;
+  box-shadow: inset 0px 0px 100px 32px rgba(248, 114, 113, 0.1);
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tus h3 {
+  font-size: 20px;
+  color: #262626;
+  margin-top: 12px;
+}
+
+.tus div {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.tus p {
+  font-size: 12px;
+  color: #737373;
+}
+
+.tus div i {
+  padding: 0;
+  border: none;
+  color: #737373;
+  box-shadow: none;
+  font-size: 12px;
 }
 
 /* hogjil heseg */
