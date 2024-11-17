@@ -1244,3 +1244,57 @@ body {
   border-right: 1px solid #5f5f5f;
   height: 40px;
 }
+
+@media screen and (max-width: 1535px) {
+  .heroback {
+    padding: 96px;
+  }
+
+  .card {
+    width: 300px;
+    height: 418px;
+  }
+
+  .utas {
+    width: 263px;
+    height: 263px;
+  }
+
+  .utas1 {
+    width: 542px;
+    height: 542px;
+  }
+
+  .utastom {
+    width: 485px;
+    height: 428px;
+  }
+
+  .utasd1 {
+    width: 148px;
+    height: 148px;
+  }
+
+  .utasd2 {
+    width: 148px;
+    height: 148px;
+  }
+
+  .utass1 {
+    width: 148px;
+    height: 148px;
+  }
+
+  .utass2 {
+    width: 148px;
+    height: 148px;
+  }
+
+  .spacebetween {
+    margin-top: 45px;
+  }
+
+  .spacebetweentom {
+    margin-top: 8px;
+  }
+}
