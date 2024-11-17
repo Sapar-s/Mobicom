@@ -133,6 +133,7 @@ body {
   margin: auto;
   padding: 144px;
   border-radius: 12px;
+  box-shadow: inset 0px -79px 100px -6px rgba(0, 0, 0, 0.3);
 }
 
 .engiin {
@@ -938,6 +939,7 @@ body {
 
 .easyparent {
   display: flex;
+  justify-content: center;
   margin-top: 80px;
   padding: 0 112px;
 }
@@ -1019,28 +1021,226 @@ body {
 
 /* last heseg */
 
+.surface {
+  padding: 40px 0 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bglast {
+  padding: 40px;
+  background-color: #1f1f1ff2;
+  border-radius: 12px;
+  width: 95vw;
+}
+
 .last {
   display: flex;
+  justify-content: space-between;
+  /* position: relative; */
 }
 
 .lastl {
   display: flex;
+  justify-content: space-between;
+  padding-right: 48px;
+  width: 800px;
+}
+
+.lastl h3 {
+  font-size: 18px;
+  color: #f7f7f7;
+  margin-bottom: 24px;
+}
+
+.lastl h5 {
+  font-size: 14px;
+  color: #a3a3a3;
+  margin-top: 12px;
+}
+
+.lastl p {
+  font-size: 14px;
+  color: #f7f7f7;
+}
+
+.infol {
+  max-width: 148.1px;
+  height: 360px;
+}
+
+.infom {
+  max-width: 166.89px;
+  height: 360px;
+}
+
+.infor {
+  max-width: 208px;
+  height: 360px;
+}
+
+.mt-3 {
+  margin-top: 12px;
+}
+
+.lastr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fimage_1103_1e55bb8d69.png&w=2048&q=75");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 611px;
+  height: 220px;
+  padding: 40px 24px;
+  border-radius: 12px;
+  box-shadow: inset 140px 4px 150px -7px rgba(0, 0, 0, 1);
+  /* position: absolute;
+  right: 0; */
+}
+
+.lastr h3 {
+  font-size: 24px;
+  color: #f7f7f7;
+  margin-bottom: 16px;
+}
+
+.lastr div {
+  display: flex;
+  align-items: center;
+  background-color: #ef3e3e;
+  padding: 6px 8px;
+  border-radius: 10px;
+  width: 152.92px;
+  height: 40px;
+}
+
+.lastr button {
+  background: none;
+  border: none;
+  color: #f7f7f7;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.lastr i {
+  color: #f7f7f7;
+}
+
+.lastmiddle {
+  border-bottom: 1px solid #5f5f5f;
+  margin: 0 0 40px 0;
 }
 
 .lastbottom {
   display: flex;
+  justify-content: space-between;
 }
 
 .flexitems {
   display: flex;
+  align-items: center;
+}
+
+.flexitems h5 {
+  font-size: 12px;
+  color: #a3a3a3;
+  margin-left: 40px;
 }
 
 .flexgap {
   display: flex;
+  /* margin-top: 12px; */
+  gap: 8px;
+}
+
+.fb {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.ig {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.x {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.yt {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.in {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
 }
 
 /* footer heseg */
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1ff2;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #5f5f5f;
+  width: 779.8px;
+  height: 73.33px;
+  margin: auto;
+  position: sticky;
+  bottom: 30px;
+}
+
+.footer button {
+  font-size: 14px;
+  color: #f7f7f7;
+  padding: 0 16px;
+  border: none;
+  background: none;
+}
+
+.footer .border {
+  border-right: 1px solid #5f5f5f;
+  height: 40px;
 }
