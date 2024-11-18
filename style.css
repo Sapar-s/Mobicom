@@ -145,7 +145,7 @@ body {
 
 .engiin h1 {
   color: #f7f7f7;
-  font-size: 48px;
+  font-size: 55px;
 }
 
 .service {
@@ -1250,6 +1250,10 @@ body {
     padding: 96px;
   }
 
+  .engiin h1 {
+    font-size: 48px;
+  }
+
   .card {
     width: 300px;
     height: 418px;
@@ -1296,5 +1300,99 @@ body {
 
   .spacebetweentom {
     margin-top: 8px;
+  }
+
+  .hogjil h2 {
+    font-size: 36px;
+  }
+
+  .hogcard {
+    width: 330px;
+    height: 363px;
+  }
+
+  .easy h2 {
+    font-size: 36px;
+  }
+
+  .borderdashed {
+    width: 128px;
+  }
+
+  .lastl {
+    width: 909.25px;
+  }
+
+  .lastr {
+    width: 437px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .Uilchilgee,
+  .Medeelel,
+  .delguur {
+    padding: 8px 12px;
+  }
+
+  .heroback {
+    padding: 80px;
+  }
+
+  .engiin h1 {
+    font-size: 36px;
+  }
+
+  .garchignuud h2 {
+    font-size: 36px;
+  }
+
+  .card {
+    width: 235px;
+    height: 353px;
+  }
+
+  .onlineshop h2 {
+    font-size: 36px;
+  }
+
+  .utas {
+    width: 186px;
+    height: 190px;
+  }
+
+  .utas1 {
+    width: 384px;
+    height: 396px;
+  }
+
+  .utastom {
+    width: 300px;
+    height: 266px;
+  }
+
+  .utasd1 {
+    width: 104px;
+    height: 104px;
+  }
+
+  .utasd2 {
+    width: 104px;
+    height: 104px;
+  }
+
+  .utass1 {
+    width: 104px;
+    height: 104px;
+  }
+
+  .utass2 {
+    width: 104px;
+    height: 104px;
+  }
+
+  .spacebetween {
+    margin-top: 20px;
   }
 }
