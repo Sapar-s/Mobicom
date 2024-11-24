@@ -1238,6 +1238,13 @@ body {
   padding: 0 16px;
   border: none;
   background: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  padding: 10px 16px;
+  border-radius: 12px;
+  background-color: #4f4f4f;
 }
 
 .footer .border {
