@@ -1402,4 +1402,13 @@ body {
   .spacebetween {
     margin-top: 20px;
   }
+
+  .tuszuun h2 {
+    font-size: 30px;
+  }
+
+  .tus {
+    width: 320px;
+    height: 186px;
+  }
 }
