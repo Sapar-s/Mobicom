@@ -1,0 +1,270 @@
+@media screen and (max-width: 1024px) {
+  .search {
+    display: none;
+  }
+
+  .Delguur {
+    display: none;
+  }
+
+  .header {
+    padding: 12px;
+    height: auto;
+  }
+
+  .heroback {
+    padding: 48px;
+  }
+
+  .serviceheader h3 {
+    font-size: 12px;
+  }
+
+  .service {
+    width: 375px;
+  }
+
+  .sergrand {
+    width: 100%;
+  }
+
+  .ser {
+    width: 100%;
+  }
+
+  .cardsearch {
+    width: auto;
+  }
+
+  .cardsearch h3 {
+    padding: 8px;
+  }
+
+  .c1 {
+    padding: 5px;
+  }
+
+  .delgerengui {
+    display: none;
+  }
+
+  .cardsearchers {
+    margin-top: 30px;
+  }
+
+  .cards {
+    height: 481px;
+  }
+
+  .btn3 {
+    display: none;
+  }
+
+  .parent {
+    margin-top: 32px;
+  }
+
+  .utasnuud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .utas1 {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .utas1 img {
+    width: 100%;
+  }
+
+  .spacebetweentom {
+    margin-top: 160px;
+    width: 91%;
+    margin-left: 15px;
+  }
+
+  .utasjijig {
+    margin-top: 16px;
+    /* display: flex; */
+    width: 560px;
+    overflow: scroll;
+  }
+
+  .utasd {
+    display: flex;
+    gap: 14px;
+  }
+
+  .utass {
+    display: flex;
+    gap: 14px;
+  }
+
+  .utas {
+    margin: 0;
+  }
+
+  .spacebetween {
+    margin-top: 12px;
+  }
+
+  .onlineshop {
+    padding: 64px 32px;
+  }
+
+  .tuslamj {
+    padding: 24px 0;
+  }
+
+  .minituslamj {
+    display: block;
+  }
+
+  .tuszuun h2 {
+    width: auto;
+  }
+
+  .parentai {
+    max-width: 974px;
+    width: 100%;
+    height: 93px;
+  }
+
+  .tusback {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 970px;
+    height: auto;
+    overflow: scroll;
+    background-image: none;
+  }
+
+  .tusleft {
+    display: flex;
+    margin-top: 50px;
+    gap: 16px;
+  }
+
+  .tusright {
+    display: flex;
+    margin-top: 50px;
+    gap: 16px;
+  }
+
+  .tus {
+    margin: 0;
+  }
+
+  .hogjil {
+    margin: 0;
+    margin: auto;
+    padding: 48px 20px;
+    height: auto;
+  }
+
+  .hogcard {
+    width: 200px;
+    height: 233px;
+  }
+
+  .easy {
+    padding: 64px 48px;
+  }
+
+  .easyparent {
+    display: flex;
+    justify-content: center;
+    max-width: 970px;
+    overflow: scroll;
+    gap: 16px;
+    /* margin-left: 100px; */
+  }
+
+  .easyl {
+    display: flex;
+    margin-left: 650px;
+
+    gap: 16px;
+  }
+
+  .easyr {
+    display: flex;
+    gap: 16px;
+  }
+
+  .easym {
+    display: none;
+  }
+
+  .borderdashed {
+    display: none;
+  }
+
+  .easyt {
+    margin: 0;
+  }
+
+  .lastl {
+    display: block;
+    /* width: 890px; */
+    width: 100%;
+  }
+
+  .lastl h5 {
+    display: none;
+  }
+
+  .lastl p {
+    display: none;
+  }
+
+  .infol {
+    height: auto;
+  }
+
+  .infom {
+    height: auto;
+  }
+
+  .infor {
+    height: auto;
+  }
+
+  .tuhai {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+
+  .tuhai i {
+    display: block;
+  }
+
+  .bglast {
+    padding: 24px;
+  }
+
+  .lastbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexitems .logo {
+    display: none;
+  }
+
+  .flexitems h5 {
+    margin: 0 0 14px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* a */
+}

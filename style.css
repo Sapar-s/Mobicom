@@ -98,7 +98,7 @@ body {
 .darkwhite {
   display: flex;
   color: #f7f7f7;
-  min-width: 320px;
+  min-width: 314px;
   justify-content: end;
 }
 
@@ -1215,6 +1215,11 @@ body {
   color: #f7f7f7;
 }
 
+.tuhai i {
+  display: none;
+  color: #fff;
+}
+
 /* footer heseg */
 
 .footer {
@@ -1405,10 +1410,68 @@ body {
 
   .tuszuun h2 {
     font-size: 30px;
+    width: 265px;
+  }
+
+  .tuszuun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .tus {
     width: 320px;
     height: 186px;
+  }
+
+  .tusback {
+    width: 664px;
+    height: 664px;
+  }
+
+  .parentai {
+    max-width: 270px;
+  }
+
+  .ai {
+    /* width: 320px; */
+    width: 100%;
+  }
+
+  .hogjil h2 {
+    font-size: 30px;
+  }
+
+  .hogcard {
+    width: 267px;
+    height: 300px;
+  }
+
+  .hogjil {
+    height: 528px;
+  }
+
+  .easy h2 {
+    font-size: 30px;
+  }
+
+  .borderdashed {
+    width: 40px;
+  }
+
+  .last {
+    display: block;
+  }
+
+  .lastl {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+  }
+
+  .lastr {
+    width: 100%;
+    height: 220px;
   }
 }
