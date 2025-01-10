@@ -70,25 +70,6 @@
     align-items: center;
   }
 
-  .utas1 {
-    width: 560px;
-    height: 560px;
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .utas1 img {
-    width: 100%;
-  }
-
-  .spacebetweentom {
-    margin-top: 160px;
-    width: 91%;
-    margin-left: 15px;
-  }
-
   .utasjijig {
     margin-top: 16px;
     /* display: flex; */
@@ -112,6 +93,25 @@
 
   .spacebetween {
     margin-top: 12px;
+  }
+
+  .utas1 {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .utas1 img {
+    width: 100%;
+  }
+
+  .spacebetweentom {
+    margin-top: 160px;
+    width: 91%;
+    margin-left: 15px;
   }
 
   .onlineshop {
@@ -190,6 +190,7 @@
   .easyl {
     display: flex;
     gap: 16px;
+    margin-left: 750px;
   }
 
   .easyr {
@@ -267,7 +268,23 @@
   }
 }
 
+@media screen and (max-width: 926px) {
+  .easyl {
+    margin-left: 850px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .easyl {
+    margin-left: 950px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .darkwhite {
+    min-width: 0;
+  }
+
   .heroback {
     display: block;
     padding: 16px;
@@ -284,5 +301,140 @@
   .service {
     width: 100%;
     margin-top: 110px;
+  }
+
+  .specialback {
+    padding: 0;
+    padding-top: 56px;
+    height: 541px;
+  }
+
+  .specialback h2 {
+    font-size: 30px;
+    /* margin-top: 56px; */
+  }
+
+  .cardsearch h3 {
+    display: none;
+  }
+
+  .cardsearch {
+    padding: 8px;
+    width: 253px;
+  }
+
+  .cardsearch i {
+    display: block;
+    padding: 6px 8px;
+    color: #a3a3a3;
+    cursor: pointer;
+  }
+
+  .c1 {
+    padding: 5px 5px;
+    border-radius: 12px;
+  }
+
+  .c1 i {
+    color: red;
+  }
+
+  .cards {
+    bottom: -100px;
+  }
+
+  .onlineshop {
+    margin-top: 100px;
+  }
+
+  .utas {
+    width: 185.3px;
+    height: 185.3px;
+  }
+
+  .utasjijig {
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .utas1 {
+    max-width: 650px;
+    width: 100%;
+    height: 409px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .utas1 img {
+    width: 100%;
+  }
+
+  .spacebetweentom {
+    margin-top: 20px;
+    width: 91%;
+    margin-left: 15px;
+  }
+
+  .tus {
+    width: 278px;
+    height: 229px;
+  }
+
+  .hogcards {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .hogcard {
+    width: 100%;
+  }
+
+  .easyt {
+    width: 288px;
+    height: 208px;
+  }
+
+  .easyt h3 {
+    font-size: 16px;
+  }
+
+  .easyt p {
+    font-size: 12px;
+  }
+
+  .easyparent {
+    padding: 0;
+    max-width: 670px;
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    gap: 16px;
+  }
+
+  .easyl {
+    margin-left: 610px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .easyl {
+    margin-left: 710px;
+    /* margin-left: 1010px; */
+    /* margin-left: 1140px; */
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .easyl {
+    margin-left: 810px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .easyl {
+    margin-left: 910px;
   }
 }
