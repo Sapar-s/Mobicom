@@ -137,9 +137,11 @@
   }
 
   .tusback {
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 970px;
+    display: flex;
+    gap: 16px;
+    /* width: 970px; */
+    /* width: auto; */
+    width: 100%;
     height: auto;
     overflow: scroll;
     background-image: none;
@@ -183,13 +185,10 @@
     max-width: 970px;
     overflow: scroll;
     gap: 16px;
-    /* margin-left: 100px; */
   }
 
   .easyl {
     display: flex;
-    margin-left: 650px;
-
     gap: 16px;
   }
 
@@ -212,7 +211,6 @@
 
   .lastl {
     display: block;
-    /* width: 890px; */
     width: 100%;
   }
 
@@ -263,8 +261,28 @@
   .flexitems h5 {
     margin: 0 0 14px 0;
   }
+
+  .footer {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /* a */
+  .heroback {
+    display: block;
+    padding: 16px;
+  }
+
+  .engiin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 98px;
+  }
+
+  .service {
+    width: 100%;
+    margin-top: 110px;
+  }
 }
